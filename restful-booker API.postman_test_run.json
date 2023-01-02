@@ -1,0 +1,128 @@
+{
+	"id": "322612ad-8357-4c05-b4a6-77d5ff048884",
+	"name": "restful-booker API",
+	"timestamp": "2023-01-02T19:30:17.872Z",
+	"collection_id": "20757970-38a87bbd-b3af-429d-b2eb-fdec384171c7",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "de39747d-4325-4400-82c9-116dedecd417",
+			"name": "Auth - Create Token",
+			"url": "https://restful-booker.herokuapp.com/auth",
+			"time": 948,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				948
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "03b10579-c7e0-45b9-a3a0-36cf8f788540",
+			"name": "Booking - GetBookingIds",
+			"url": "https://restful-booker.herokuapp.com/booking?firstname=Jessica&lastname=Kisner",
+			"time": 165,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				165
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5765edb9-f518-417f-aed3-7fab78585dfe",
+			"name": "Booking - GetBooking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 306,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				306
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4f756645-4532-4c22-9349-02625630761c",
+			"name": "Booking - CreateBooking raw json",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 152,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				152
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2f26ae1e-2077-47b0-b0e2-79f0e258992e",
+			"name": "Booking - UpdateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/43",
+			"time": 161,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				161
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1732,
+	"collection": {
+		"requests": [
+			{
+				"id": "de39747d-4325-4400-82c9-116dedecd417",
+				"method": "POST"
+			},
+			{
+				"id": "03b10579-c7e0-45b9-a3a0-36cf8f788540",
+				"method": "GET"
+			},
+			{
+				"id": "5765edb9-f518-417f-aed3-7fab78585dfe",
+				"method": "GET"
+			},
+			{
+				"id": "4f756645-4532-4c22-9349-02625630761c",
+				"method": "POST"
+			},
+			{
+				"id": "2f26ae1e-2077-47b0-b0e2-79f0e258992e",
+				"method": "PUT"
+			}
+		]
+	}
+}
